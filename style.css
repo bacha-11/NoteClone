@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_container{
+    width: 100%;
+    height: 100vh;
+    font-family: monospace;
+    background-color: #ecf0f1;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #d35400;
+}
+
+.header h1{
+    color: #ecf0f1;
+    margin-left: 10px;
+    text-shadow: 2px 2px 2px;
+}
+
+.header i{
+    /* color: #30336b; */
+    margin-right: 10px;
+}
+
+.btn{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn button{
+    width: 100px;
+    height: 40px;
+    color: #ecf0f1;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-family: monospace;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    background-color: #d35400;
+}
+
+.btn button:hover{
+    width: 120px;
+    height: 50px;
+    color: #ecf0f1;
+    background-color: #7f8c8d;
+
+}
+
+.note{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    align-items: flex-end;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 1px #888888;
+}
+
+.note button{
+    padding: 8px;
+    margin-top: 4px;
+    margin-right: 4px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.note .edit{
+    color: #ecf0f1;
+    transition: all 1s linear;
+    background-color: #27ae60;
+}
+
+.note .delete{
+    color: #ecf0f1;
+    transition: all 1s linear;
+    background-color: #c0392b;
+}
+
+.note .edit:hover{
+    color: #27ae60;
+    background-color: #ecf0f1;
+}
+
+.note .delete:hover{
+    color: #c0392b;
+    background-color: #ecf0f1;
+}
+
+.note textarea{
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    text-indent: 13px;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+.main{
+    padding: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
