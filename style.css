@@ -11,7 +11,7 @@
     /* flex-direction: column; */
     font-family: monospace;
     /* flex-wrap: wrap; */
-    background-color: whitesmoke;
+    background-color: #E5E5E5;
 }
 
 .header{
@@ -75,14 +75,14 @@
     flex-direction: column;
     overflow-y: scroll;
     margin: 20px;
-    background-color: white;
+    background-color: #ecf0f1;
     box-shadow: 2px 2px 1px #888888;
 }
 
 .operation{
     display: flex;
     justify-content: flex-end;
-
+    background-color: #ecf0f1;
 }
 
 .operation button{
@@ -110,12 +110,12 @@
 
 .note .edit:hover{
     color: #27ae60;
-    background-color: #ecf0f1;
+    background-color: #fff;
 }
 
 .note .delete:hover{
     color: #c0392b;
-    background-color: #ecf0f1;
+    background-color: #fff;
 }
 
 .note textarea{
@@ -127,6 +127,7 @@
     resize: none;
     outline: none;
     border: none;
+    background-color: #ecf0f1;
 }
 
 .main{

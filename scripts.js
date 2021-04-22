@@ -17,10 +17,18 @@ function createNewNote(text='') {
     note.insertAdjacentHTML('afterbegin', htmlData);
     // console.log(note);
 
+
+    let editButton = note.querySelector('.edit');
+    let delButton = note.querySelector('.delete');
+    let mainDiv = note.querySelector('.main');
+    let textarea = note.querySelector('textarea');
+
+    // Deleting the note
+    delButton.addEventListener('click', () => {
+        note.remove()
+    })
+
     document.body.appendChild(note);
-
-    
-
 
 }
 
